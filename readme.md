@@ -121,9 +121,9 @@ Before running sentiment and thematic analysis, the text needed preprocessing to
 
 Three sentiment analysis tools—VADER, TextBlob, and DistilBERT—were compared against user ratings:  
 
-- **DistilBERT:** Highest agreement (~72.7%), aligning best with user ratings  
-- **VADER:** Moderate agreement (~63.6%), sometimes misclassifies neutral or slightly positive/negative reviews  
-- **TextBlob:** Lowest agreement (~59.2%), often overly optimistic or neutral  
+- **DistilBERT**: Highest agreement (~43.9%), aligning better with user ratings.
+- **VADER**: Low but moderate agreement among the three (~28.8%), may misclassify most neutral or slightly positive.
+- **TextBlob**: Lowest agreement (~26.5%), tends to be overly more neutral.
 
 **Interpretation:**  
 
